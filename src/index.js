@@ -9,5 +9,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <TaskCard ready={true} />
+    <TaskCard ready={false} />
   </>
 );
